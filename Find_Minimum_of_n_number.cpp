@@ -1,5 +1,5 @@
 #include<stdio.h>
-using namespace std;
+//using namespace std are not required in stdio.h hederfile
 int main(){
 	int n,i,min;
 	scanf("%d",&n);
@@ -12,7 +12,8 @@ int main(){
 	for(i=0;i<n;i++)
 	{
 		if(min>a[i])
-		{rry
+		{
+			min=a[i];
 		}
 	}
 	printf("%d",min);
