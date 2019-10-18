@@ -1,5 +1,4 @@
 #include<stdio.h>
-using namespace std;
 int main(){
 	int n,i,min;
 	scanf("%d",&n);
@@ -12,7 +11,7 @@ int main(){
 	for(i=0;i<n;i++)
 	{
 		if(min>a[i])
-		{rry
+		{ min=a[i];
 		}
 	}
 	printf("%d",min);
