@@ -1,9 +1,8 @@
-#include<stdio.h>
-int main()
-{
-	int p,i,j,k=0;
-	scanf("%d",&i=k*10+j;
-	  i=i/10;
-	}
-	printf("%d",k);
+#include<iostream>
+using namespace std;
+int main(){
+	int x,y;
+	cin>>x>>y;
+	cout<<x+y;
+return 0;
 }
