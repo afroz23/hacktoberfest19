@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-	int a,b,c;
+	int a,b;
 	scanf("%d%d",&a,&b);
-	c=a+b;
-	printf("%d",c);
+	cout<<a+b;
 }
