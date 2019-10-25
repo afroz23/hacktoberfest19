@@ -1,9 +1,12 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-	int p,i,j,k=0;
-	scanf("%d",&i=k*10+j;
-	  i=i/10;
+int i,n,pro=1;
+	cin>>n;
+	for(i=1;i<=n;i++)
+	{
+		pro=pro*i;
 	}
-	printf("%d",k);
+	cout<<pro;
 }
