@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
 	int n,i,j,sum=0;
@@ -12,6 +13,6 @@ int main()
 	{
 		sum=sum+a[i];
 	}
-	printf("%d",sum);
+	cout<<sum;
 	return 0;
 }
