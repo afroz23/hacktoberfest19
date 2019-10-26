@@ -1,8 +1,12 @@
-#include<stdio.h>
+
+
+#include<iostream>
+using namspace std;
 int main()
 {
-	int a,b,c;
-	scanf("%d%d",&a,&b);
-	c=a+b;
-	printf("%d",c);
+	int x,y,z;
+	cin>>x>>y;
+	z=x+y;
+	cout<<z;
+	return 0;
 }
