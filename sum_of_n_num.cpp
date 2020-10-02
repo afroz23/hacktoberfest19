@@ -3,14 +3,14 @@ int main()
 {
 	int n,i,sum=0;
 	
-	scanf("%d",&n);		// enter size of array
+	scanf("%d",&n);	
 	int a[n];
 	
 	for(i=0;i<n;i++)
-	scanf("%d",&a[i]);	// enter numbers 
+	scanf("%d",&a[i]);
 	
 	for(i=0;i<n;i++)
-	sum=sum+a[i];		// calculating sum
+	sum=sum+a[i];	
 	
-	printf("%d",sum);	// sum of a given number
+	printf("%d",sum);	
 }
