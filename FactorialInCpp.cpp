@@ -1,5 +1,5 @@
 //calculating factorial of any number
-#include<iostream>
+#include<iostream>			// header file
 #include<conio.h>
 int main()
 {
