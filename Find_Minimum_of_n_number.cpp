@@ -8,7 +8,7 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    min=a[0];
+    min=a[0];					// it holds array first value
     for(i=0;i<n;i++)
     {
         if(min>a[i])
