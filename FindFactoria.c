@@ -1,13 +1,22 @@
-//Calculating factorial of given number in c language
+//Calculating factorial of given number in C language usingif Recurssion
 #include<stdio.h>
+int fun(int n);
 int main()
 {
-	int n,i,p=1;
+	int n,i,a,fact=1;
+	printf("Enter a Number :\n);
 	scanf("%d",&n);
-	prinf("Enter a Number ");
-	for(i=1;i<=n;i++)
+	p=fun(n);
+	printf("%d",p);
+	return 0;
+}
+
+int fun(a){
+	if(a>=1)
 	{
-		p=p*i;
+		return(a*fun(a-1));
 	}
-	printf("factorial is %d",p);
+	else{
+		return 1;
+	}
 }
