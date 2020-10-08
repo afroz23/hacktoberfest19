@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>		// header file
 int main()
 {
 	int n,i,sum=0;		// declare variables
