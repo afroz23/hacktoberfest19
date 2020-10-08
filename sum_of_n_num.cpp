@@ -1,16 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-	int n,i,sum=0;		// declare variables
-	
-	scanf("%d",&n);		// enter size of array
-	int a[n];
-	
-	for(i=0;i<n;i++)
-	scanf("%d",&a[i]);	// enter numbers 
-	
-	for(i=0;i<n;i++)
-	sum=sum+a[i];		// calculating sum
-	
-	printf("%d",sum);	// sum of a given number
+  int n, sum = 0, i, num;
+  printf("How many numbers you want to add?\n");
+  scanf("%d", &n);
+  printf("Enter %d integers\n", n);
+  for (c = 1; c <= n; c++)
+  {
+    scanf("%d", &num);
+    sum = sum + num;
+  }
+  printf("Sum of the integers = %d\n", sum);
+  return 0;
 }
