@@ -1,5 +1,5 @@
 //calculating factorial of a number
-
+#include<bits/stdc++.h>    // This is the main header
 #include<iostream>
 using namespace std;
 int main()
