@@ -1,4 +1,5 @@
 //Calculating factorial of given number in C language usingif Recurssion
+#include<bits/stdc++.h>    // This is the main header
 #include<stdio.h>
 int fun(int n);
 int main()
