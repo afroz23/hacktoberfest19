@@ -1,3 +1,4 @@
+#include<bits/stdc++.h>    // This is the main header
 #include<iostream>
 using namespace std;
 int reverse_function(int x);
